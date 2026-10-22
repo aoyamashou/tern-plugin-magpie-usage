@@ -1,0 +1,23 @@
+.DS_Store
+tern.d.luau
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+settings.local.json
+providers.json
+
+# Local runtime data and generated output
+plugin-data/
+usage.jsonl
+served.json
+*.log
+node_modules/
+build/
+dist/

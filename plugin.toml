@@ -1,0 +1,6 @@
+schema = 1
+id = "magpie-quotas"
+name = "Magpie Quotas"
+version = "0.1.0"
+description = "Show Magpie subscription allowances in Tern's status bar and a native pane."
+window = "window.luau"
